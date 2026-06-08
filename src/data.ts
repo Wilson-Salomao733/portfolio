@@ -1,7 +1,7 @@
 export const PROFILE = {
   name: "Wilson Salomão",
   role: "Full Stack & DevOps Developer",
-  bio: "Construo soluções modernas e escaláveis para resolver problemas reais — do backend à infraestrutura na nuvem. Gosto de unir código limpo, automação e performance. Minha base principal é Elixir, Node.js e Python, mas me divirto em várias áreas, incluindo DevOps e cloud.",
+  bio: "Construo soluções modernas e escaláveis para resolver problemas reais — do backend à infraestrutura na nuvem. Gosto de unir código limpo, automação e performance. Minha base é Elixir, Node.js, C# e Python, com forte atuação em DevOps, Google Cloud (GCP) e, mais recentemente, Machine Learning e agentes de IA (LLMs).",
   email: "wilsonsalomao733@gmail.com",
   github: "https://github.com/Wilson-Salomao733",
   linkedin: "https://www.linkedin.com/in/wilson-g-salom%C3%A3o-227133285",
@@ -15,6 +15,7 @@ export const TECHS: { name: string; icon: string }[] = [
   { name: "Elixir", icon: devicon("elixir/elixir-original.svg") },
   { name: "Phoenix", icon: devicon("phoenix/phoenix-original.svg") },
   { name: "Node.js", icon: devicon("nodejs/nodejs-original.svg") },
+  { name: "C#", icon: devicon("csharp/csharp-original.svg") },
   { name: "Python", icon: devicon("python/python-original.svg") },
   { name: "TypeScript", icon: devicon("typescript/typescript-original.svg") },
   { name: "React", icon: devicon("react/react-original.svg") },
@@ -25,6 +26,7 @@ export const TECHS: { name: string; icon: string }[] = [
   { name: "Terraform", icon: devicon("terraform/terraform-original.svg") },
   { name: "Docker", icon: devicon("docker/docker-original.svg") },
   { name: "Kubernetes", icon: devicon("kubernetes/kubernetes-plain.svg") },
+  { name: "GitLab CI", icon: devicon("gitlab/gitlab-original.svg") },
   { name: "PostgreSQL", icon: devicon("postgresql/postgresql-original.svg") },
   { name: "MySQL", icon: devicon("mysql/mysql-original.svg") },
   { name: "Redis", icon: devicon("redis/redis-original.svg") },
@@ -40,9 +42,23 @@ export const EXPERIENCES: {
   bullets: string[];
 }[] = [
   {
+    role: "Engenheiro de Software (Full Stack)",
+    company: "Swap",
+    period: "Set 2025 — Atual",
+    location: "São Paulo · Remoto",
+    bullets: [
+      "Criação de automações e ferramentas internas como Engenheiro de Software, eliminando processos manuais e gerando valor direto para os times de Dados e PLD (AML).",
+      "Owner do projeto no GCP — nível máximo de permissão (IAM) —, administrando, protegendo e arquitetando diversos serviços do Google Cloud de ponta a ponta.",
+      "Desenvolvimento de soluções orientadas a dados no GCP, apoiando análises e fluxos de prevenção à lavagem de dinheiro (PLD/AML).",
+      "Criação e manutenção de pipelines de CI/CD e projetos com GitLab (GitLab CI).",
+      "Machine Learning: desenvolvimento de modelos e criação de agentes de IA com LLMs para automatizar decisões e análises.",
+      "Colaboração próxima com os times de Dados e Compliance para entregas escaláveis e alinhadas ao negócio.",
+    ],
+  },
+  {
     role: "Desenvolvedor Full Stack Júnior",
     company: "Árvore de Livros",
-    period: "Jan 2025 — Atual",
+    period: "Jan 2025 — Jul 2025",
     location: "Remoto",
     bullets: [
       "Desenvolvimento de novas features no backend (Elixir e Node.js) e frontend (React e TypeScript).",
