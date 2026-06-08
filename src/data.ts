@@ -105,11 +105,24 @@ export const PROJECTS: {
     link: "https://github.com/Wilson-Salomao733",
   },
   {
-    title: "terraform-infra",
-    emoji: "☁️",
+    title: "MercadoLivre Afiliados",
+    emoji: "🛒",
     description:
-      "Infraestrutura como código com Terraform para provisionamento automatizado de recursos em nuvem.",
-    tags: ["Terraform", "IaC", "Cloud"],
-    link: "https://github.com/Wilson-Salomao733/terraform-infra",
+      "Bot de afiliados que integra as APIs do Mercado Livre e Shopee (OAuth/GraphQL), busca ofertas e publica automaticamente no Telegram/WhatsApp, gerando vídeos promocionais. Containerizado com Docker e execução agendada.",
+    tags: ["Python", "Integrações de API", "Telegram", "Docker", "Automação"],
+    link: "https://github.com/Wilson-Salomao733/MercadoLivre",
   },
+  {
+    title: "YouTube Lofi Bot",
+    emoji: "🎵",
+    description:
+      "Automação que cria e transmite lives 24/7 no YouTube (LOFI de manhã, sons da natureza à noite), gerando os vídeos com FFmpeg e gerenciando as transmissões via YouTube Data API (Google).",
+    tags: ["Python", "YouTube Data API", "FFmpeg", "Google API", "Automação"],
+    link: "https://github.com/Wilson-Salomao733/youtube-lofi-bot",
+  },
+];
+
+export const PHOTOS: { src: string; alt: string }[] = [
+  { src: "/google.jpeg", alt: "Wilson em evento do Google Cloud" },
+  { src: "/google_wilson.jpeg", alt: "Wilson no espaço Google Cloud" },
 ];

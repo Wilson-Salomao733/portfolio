@@ -1,4 +1,4 @@
-import { PROFILE, TECHS, EXPERIENCES, PROJECTS } from "./data";
+import { PROFILE, TECHS, EXPERIENCES, PROJECTS, PHOTOS } from "./data";
 
 function GitHubIcon() {
   return (
@@ -126,6 +126,38 @@ export default function App() {
             >
               <MailIcon />
             </a>
+          </div>
+        </section>
+
+        {/* Google Cloud */}
+        <section className="py-12">
+          <div className="overflow-hidden rounded-3xl border border-neutral-200 bg-gradient-to-br from-indigo-50 via-white to-sky-50 p-8 shadow-sm">
+            <div className="flex flex-col items-center gap-8 sm:flex-row sm:items-center sm:justify-between">
+              <div className="max-w-md text-center sm:text-left">
+                <p className="text-xs font-semibold uppercase tracking-[0.25em] text-indigo-500">
+                  ☁️ Google Cloud
+                </p>
+                <h2 className="mt-3 text-2xl font-bold tracking-tight">
+                  Vivendo o ecossistema GCP
+                </h2>
+                <p className="mt-3 text-sm leading-relaxed text-neutral-600">
+                  Atuo como <b>Owner</b> de projeto no Google Cloud, arquitetando e
+                  administrando serviços de ponta a ponta — sempre acompanhando de
+                  perto a comunidade e os eventos da plataforma.
+                </p>
+              </div>
+              <div className="flex shrink-0 gap-4">
+                {PHOTOS.map((p) => (
+                  <img
+                    key={p.src}
+                    src={p.src}
+                    alt={p.alt}
+                    loading="lazy"
+                    className="h-56 w-40 rounded-2xl object-cover shadow-md ring-1 ring-black/5"
+                  />
+                ))}
+              </div>
+            </div>
           </div>
         </section>
 
